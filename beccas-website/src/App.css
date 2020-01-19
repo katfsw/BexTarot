@@ -64,7 +64,8 @@
 .beximg{
   border-radius: 100em;
   width: 20vw;
-  border: 0.5em solid white;
+  margin: 1em;
+  box-shadow: 0 0 2em 1em #fcb2bf;
 }
 /* --------- Bio Section ----------- */
 .bio-section{

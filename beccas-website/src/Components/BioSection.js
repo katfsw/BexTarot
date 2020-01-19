@@ -14,6 +14,7 @@ let BioSection = () => {
                </p>
            </div>
         </div>
+        
     )
 }
 
