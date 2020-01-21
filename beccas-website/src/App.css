@@ -117,7 +117,6 @@ textarea {
   font-family: 'Unica One',  cursive;
 }
 div .contact-button{
-  
   font-family: 'Alex Brush', cursive;
 }
 input {
@@ -150,11 +149,12 @@ form{
 .bottom-navbar{
   background-color: #561f55;
   text-align: center;
-  padding: 2em;
+  padding: 1.5em;
 }
 .copyright-bbfsw{
   color: #fcb2bf;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   opacity: 0.5;
+  font-family: 'Unica One',  cursive;
 }
