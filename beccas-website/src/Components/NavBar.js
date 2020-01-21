@@ -9,7 +9,7 @@ let NavBar = () => {
            <div class="navlinks">
                 <a class="navatags" href="#">Home</a>
                 <a class="navatags" href="#about_me">About Me</a>
-                <a class="navatags" href="#">Contact Me</a>
+                <a class="navatags" href="#contact_form">Contact Me</a>
            </div>
 
            <div class="middleaboutsection">

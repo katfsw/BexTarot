@@ -8,6 +8,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 .title {
   font-size: 2.5em;
@@ -61,7 +62,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('https://i.ibb.co/52CvChk/tarot.png');
-  height: 35em;
+  height: 40em;
 }
 
 .beximg{
@@ -75,7 +76,7 @@
   background-color: #7a2c79;
   display: flex;
   justify-content: space-evenly;
-  padding: 1em;
+  padding: 2em;
 }
 
 .bio-about {
@@ -90,4 +91,70 @@
   color: #fcb2bf;
   font-family: 'Alex Brush', cursive;
   font-size: 2em;
+}
+/* ---- Contact Section ----- */
+.contact-form{
+  /* background-color: #561f55; */
+  background-image: url('./images/tarot-cards.png');
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 5em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.input-form{
+  padding: 1em;
+}
+textarea {
+  resize: none;
+  width: 35rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: 'Unica One',  cursive;
+}
+div .contact-button{
+  
+  font-family: 'Alex Brush', cursive;
+}
+input {
+  font-size: 1.8rem;
+  margin: 0.2em;
+  font-family: 'Unica One',  cursive;
+  text-align: center;
+}
+form{
+  background-color: #fcb2bf;
+  width: 50%;
+  border: 0.3em dashed #cf56a1;
+  border-radius: 2em;
+  opacity: 0.9; 
+}
+.contact-button{
+  background-color: #cf56a1;
+  border: 0.5em solid #cf56a1;
+  border-radius: 2em;
+  color: white;
+  font-size: 2.2rem;
+}
+.contact-button:hover{
+  background-color: #561f55;
+  border: 0.5em solid #561f55;
+  cursor: pointer;
+  color: #cf56a1;
+}
+/* ------- BottomNav ----------- */
+.bottom-navbar{
+  background-color: #561f55;
+  text-align: center;
+  padding: 2em;
+}
+.copyright-bbfsw{
+  color: #fcb2bf;
+  text-decoration: none;
+  font-size: 1.5rem;
+  opacity: 0.5;
 }
