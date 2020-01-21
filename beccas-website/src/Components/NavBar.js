@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css'
 
 let NavBar = () => {
 
@@ -12,6 +11,12 @@ let NavBar = () => {
                 <a class="navatags" href="#">About Me</a>
                 <a class="navatags" href="#">Contact Me</a>
            </div>
+
+           <div class="middleaboutsection">
+           
+           </div>
+
+           
         </div>
     )
 }
