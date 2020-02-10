@@ -9,7 +9,12 @@ let BioSection = () => {
            <div class="bio-about">
                <h3> About Me: </h3>
                <p>
-                    Star jupiter experience jupiter spiritual pleiades alien matrix. Natural aliens wave wave moon spirit consciousness. Moon orbit moon cognitive mythology alien, vibration energy emotional mass galactic emotional. Consciousness cognitive experience solar spaceship hubble, magic good vibration good spacetime century. Time hinduism wave, light materialist gaia aliens meaning century concepts wavelength materialist spatial wavelength.
+                   I'm Rebecca! I'm a beginner witch who's still learning! I have my small family whom I love to pieces! An amazing finace, and two little girls. I sell Tarot Readings and have several different packages to subscribe for!
+               </p>
+               <p className="bio-money">
+                 <i class="fas fa-envelope"/>Email: brujamama18@gmail.com<br/>
+                 <i class="fas fa-money-check-alt"/>CashApp: $mamabex18<br/>
+                 <i class="fab fa-cc-paypal"/>PayPal:   bumgardnerr066@gmail.com
                </p>
            </div>
         </div>
