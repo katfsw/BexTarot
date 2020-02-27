@@ -17,7 +17,6 @@
   margin-left: 2em;
   color: #cf56a1;
   padding: 0.2em 0;
-
 }
 
 .smallertitle {
@@ -46,6 +45,7 @@
   font-size: 1.8rem;
   font-family: 'Alex Brush', cursive;
   text-align: center;
+  
 }
 
 .navatags:hover{
@@ -164,4 +164,30 @@ form{
   font-size: 1.2rem;
   opacity: 0.5;
   font-family: 'Unica One',  cursive;
+}
+/* ------------------------------------------------------------------ */
+/* Media Queries */
+@media only screen and (max-width: 320px) {
+  .body{
+    margin: 0 auto !important;
+    text-align: center;
+    min-width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .title{
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+  }
+  .navlinks{
+    display:flex;
+    flex-direction: column;
+  }
+  .navatags{
+    font-size: 1.8rem;
+    min-width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
 }
