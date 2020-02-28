@@ -191,3 +191,39 @@ form{
     padding: 0 0 0 0;
   }
 }
+.readings-spreads{
+  text-align: center;
+}
+.readings-spreads h1{
+  background-color: #561F55;
+  color: #fcb2bf;
+  font-family: 'Alex Brush', cursive;
+  padding: 1rem;
+}
+.single-spreads{
+  display:flex;
+  justify-content: space-evenly;
+  background-color: #EBA2B6;
+  padding: 2rem;
+}
+.single-spreads div{
+  background-color: #C4509D;
+  max-width: 20%;
+  border-radius: 2em;
+  padding: 1em;
+}
+.monthly-spreads{
+  display:flex;
+  justify-content: space-evenly;
+  background-color: #C4509D;
+  padding: 2rem;
+}
+.monthly-spreads div{
+  background-color: #EBA2B6;
+  max-width: 20%;
+  border-radius: 2em;
+  padding: 1em;
+}
+.single-card img{
+  max-width: 55%;
+}
